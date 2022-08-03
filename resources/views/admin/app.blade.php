@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <title>@yield('title') - {{ config('app.name') }}</title>
     <meta charset="utf-8" />
@@ -9,8 +9,8 @@
     </head>
    
     <body class="app sidebar-mini rtl">
-    @include('header')
-    @include('sidebar')
+    @include('admin.partials.header')
+    @include('admin.partials.sidebar')
     <main class="app-content">
         @yield('content')
     </main>
@@ -20,4 +20,4 @@
     <script src="{{ asset('backend/js/main.js') }}"></script>
     <script src="{{ asset('backend/js/plugins/pace.min.js') }}"></script>
     </body>
-</html> -->
+</html>

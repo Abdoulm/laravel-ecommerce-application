@@ -1,4 +1,4 @@
-
+@extends('admin.app')
 @section('title') Dashboard @endsection
 @section('content')
 <div class="app-title">
